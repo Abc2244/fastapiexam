@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using MoneyBankMVC.Models;
 using MoneyBankMVC.Services;
-using System.Linq;
+using System.Diagnostics;
 
 namespace MoneyBankMVC.Controllers
 {
@@ -14,142 +16,9 @@ namespace MoneyBankMVC.Controllers
             _DBContext = context;
         }
 
-        // 1. Listar
-        public IActionResult Listar()
-        {
-            var accounts = _DBContext.Accounts.ToList();
-            return View(accounts);
-        }
-
-        // 2. Crear (Vista y Acción POST)
-        public IActionResult Crear()
+        public IActionResult Index()
         {
             return View();
         }
-
-        [HttpPost]
-        public IActionResult Crear(Account account)
-        {
-            if (ModelState.IsValid)
-            {
-                _DBContext.Accounts.Add(account);
-                _DBContext.SaveChanges();
-                return RedirectToAction("Listar");
-            }
-            return View(account);
-        }
-
-        // 3. Editar (Vista y Acción POST)
-        public IActionResult Editar(int id)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            return View(account);
-        }
-
-        [HttpPost]
-        public IActionResult Editar(Account account)
-        {
-            if (ModelState.IsValid)
-            {
-                _DBContext.Accounts.Update(account);
-                _DBContext.SaveChanges();
-                return RedirectToAction("Listar");
-            }
-            return View(account);
-        }
-
-
-        // 4. Depositar
-        public IActionResult Depositar(int id)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            return View(account);
-        }
-
-        [HttpPost]
-        public IActionResult Depositar(int id, decimal amount)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            account.BalanceAmount += amount;
-            _DBContext.SaveChanges();
-            return RedirectToAction("Listar");
-        }
-
-        // 5. Retirar
-        public IActionResult Retirar(int id)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            return View(account);
-        }
-
-        [HttpPost]
-        public IActionResult Retirar(int id, decimal amount)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            if (account.BalanceAmount - amount < 0)
-            {
-                // Aquí puedes manejar el caso en que no haya suficiente saldo
-                return View("Error");
-            }
-            account.BalanceAmount -= amount;
-            _DBContext.SaveChanges();
-            return RedirectToAction("Listar");
-        }
-
-        // 6. Información
-        public IActionResult Informacion(int id)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            return View(account);
-        }
-
-        // 7. Eliminar
-        public IActionResult Eliminar(int id)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            return View(account);
-        }
-
-        [HttpPost]
-        public IActionResult ConfirmarEliminar(int id)
-        {
-            var account = _DBContext.Accounts.Find(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
-            _DBContext.Accounts.Remove(account);
-            _DBContext.SaveChanges();
-            return RedirectToAction("Listar");
-        }
-
     }
 }

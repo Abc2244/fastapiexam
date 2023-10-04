@@ -155,6 +155,74 @@ namespace MoneyBankMVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+        // GET: Accounts/Depositar/5
+        public async Task<IActionResult> Depositar(int? id)
+        {
+            if (id == null || _context.Accounts == null)
+            {
+                return NotFound();
+            }
+
+            var account = await _context.Accounts.FindAsync(id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            return View(account);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Depositar(int id, decimal amount)
+        {
+            var account = await _context.Accounts.FindAsync(id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            account.BalanceAmount += amount;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        // GET: Accounts/Retirar/5
+        public async Task<IActionResult> Retirar(int? id)
+        {
+            if (id == null || _context.Accounts == null)
+            {
+                return NotFound();
+            }
+
+            var account = await _context.Accounts.FindAsync(id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            return View(account);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Retirar(int id, decimal amount)
+        {
+            var account = await _context.Accounts.FindAsync(id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            if (account.BalanceAmount - amount < 0)
+            {
+                // Aquí puedes manejar el caso en que no haya suficiente saldo
+                return View("Error");
+            }
+            account.BalanceAmount -= amount;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+     
+
         private bool AccountExists(int id)
         {
           return (_context.Accounts?.Any(e => e.Id == id)).GetValueOrDefault();

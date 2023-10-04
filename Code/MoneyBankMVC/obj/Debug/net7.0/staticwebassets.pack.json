@@ -13,6 +13,86 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-00-Main.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-00-Main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-01-Accounts.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-01-Accounts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-02-Create.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-02-Create.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-03-Edit.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-03-Edit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-04-Deposit.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-04-Deposit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-05-Withdrawal.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-05-Withdrawal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-06-Info.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-06-Info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-07-Delete.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-07-Delete.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-Model.jpg",
+      "PackagePath": "staticwebassets\\images\\Img-Model.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\MoneyBank.png",
+      "PackagePath": "staticwebassets\\images\\MoneyBank.png"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\MoneyBank.xcf",
+      "PackagePath": "staticwebassets\\images\\MoneyBank.xcf"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\MoneyBankLogo.png",
+      "PackagePath": "staticwebassets\\images\\MoneyBankLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\MoneyBankLogo.xcf",
+      "PackagePath": "staticwebassets\\images\\MoneyBankLogo.xcf"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\NoImage.png",
+      "PackagePath": "staticwebassets\\images\\NoImage.png"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\box-arrow-down.svg",
+      "PackagePath": "staticwebassets\\images\\box-arrow-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\box-arrow-in-down.svg",
+      "PackagePath": "staticwebassets\\images\\box-arrow-in-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\info.svg",
+      "PackagePath": "staticwebassets\\images\\info.svg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\pencil.svg",
+      "PackagePath": "staticwebassets\\images\\pencil.svg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\plus.svg",
+      "PackagePath": "staticwebassets\\images\\plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\trash.svg",
+      "PackagePath": "staticwebassets\\images\\trash.svg"
+    },
+    {
       "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
