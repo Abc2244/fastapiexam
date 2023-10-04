@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEON\\Documents\\GitHub\\WebDevelopment\\Exams\\Exam-02\\Exam-02-1\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj": {}
+    "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEON\\Documents\\GitHub\\WebDevelopment\\Exams\\Exam-02\\Exam-02-1\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj": {
+    "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEON\\Documents\\GitHub\\WebDevelopment\\Exams\\Exam-02\\Exam-02-1\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj",
+        "projectUniqueName": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj",
         "projectName": "MoneyBankMVC",
-        "projectPath": "C:\\Users\\LEON\\Documents\\GitHub\\WebDevelopment\\Exams\\Exam-02\\Exam-02-1\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj",
+        "projectPath": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj",
         "packagesPath": "C:\\Users\\LEON\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEON\\Documents\\GitHub\\WebDevelopment\\Exams\\Exam-02\\Exam-02-1\\Code\\MoneyBankMVC\\obj\\",
+        "outputPath": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEON\\AppData\\Roaming\\NuGet\\NuGet.Config",

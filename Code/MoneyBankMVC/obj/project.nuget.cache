@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SXrtuCljINY6FwGstanL6UDHeqIcYq17Ht1l9JNp7wQHP1Pz7iYcZuKA3LG0oNo+gR0doCayu6J51UD4WQ9QLw==",
+  "dgSpecHash": "3OZrc3GRX4PBZBxYRTG5O0HAi5q3r8eF2q310Uc9gbicK7UubUrn1hfzldab+R5Y2ucyWEMLj/ZEdAh9em8BaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEON\\Documents\\GitHub\\WebDevelopment\\Exams\\Exam-02\\Exam-02-1\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj",
+  "projectFilePath": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\MoneyBankMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEON\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\LEON\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
