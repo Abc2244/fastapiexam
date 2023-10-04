@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using MoneyBankMVC.Models;
 
-namespace MoneyBankMVC.Services;
+namespace MoneyBankMVC.Context;
 
 public partial class MoneybankdbContext : DbContext
 {
