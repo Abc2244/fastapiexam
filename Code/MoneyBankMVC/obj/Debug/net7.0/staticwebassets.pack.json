@@ -69,12 +69,20 @@
       "PackagePath": "staticwebassets\\images\\NoImage.png"
     },
     {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\basura.png",
+      "PackagePath": "staticwebassets\\images\\basura.png"
+    },
+    {
       "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\box-arrow-down.svg",
       "PackagePath": "staticwebassets\\images\\box-arrow-down.svg"
     },
     {
       "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\box-arrow-in-down.svg",
       "PackagePath": "staticwebassets\\images\\box-arrow-in-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\devolver.png",
+      "PackagePath": "staticwebassets\\images\\devolver.png"
     },
     {
       "Id": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\info.svg",

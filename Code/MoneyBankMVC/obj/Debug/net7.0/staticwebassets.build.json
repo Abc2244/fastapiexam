@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IQLh+K3wPHkP7fzRkLyRoxS6AwiMHDNoaddndLD3Dt4=",
+  "Hash": "6FQGTKrehZgZGye5ZGPeRUcBxlZuwU1TdH7iAmQG+z4=",
   "Source": "MoneyBankMVC",
   "BasePath": "_content/MoneyBankMVC",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\basura.png",
+      "SourceId": "MoneyBankMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\",
+      "BasePath": "_content/MoneyBankMVC",
+      "RelativePath": "images/basura.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\basura.png"
+    },
+    {
       "Identity": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\box-arrow-down.svg",
       "SourceId": "MoneyBankMVC",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\box-arrow-in-down.svg"
+    },
+    {
+      "Identity": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\devolver.png",
+      "SourceId": "MoneyBankMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\",
+      "BasePath": "_content/MoneyBankMVC",
+      "RelativePath": "images/devolver.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\devolver.png"
     },
     {
       "Identity": "C:\\Users\\LEON\\Documents\\GitHub\\fastapiexam\\Code\\MoneyBankMVC\\wwwroot\\images\\Img-00-Main.jpg",
