@@ -1,0 +1,5 @@
+C:\Users\LEON\Documents\GitHub\fastapiexam\MoneyBankService\MoneyBankService.Application\obj\Debug\net7.0\MoneyBankService.Application.csproj.AssemblyReference.cache
+C:\Users\LEON\Documents\GitHub\fastapiexam\MoneyBankService\MoneyBankService.Application\obj\Debug\net7.0\MoneyBankService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEON\Documents\GitHub\fastapiexam\MoneyBankService\MoneyBankService.Application\obj\Debug\net7.0\MoneyBankService.Application.AssemblyInfoInputs.cache
+C:\Users\LEON\Documents\GitHub\fastapiexam\MoneyBankService\MoneyBankService.Application\obj\Debug\net7.0\MoneyBankService.Application.AssemblyInfo.cs
+C:\Users\LEON\Documents\GitHub\fastapiexam\MoneyBankService\MoneyBankService.Application\obj\Debug\net7.0\MoneyBankService.Application.csproj.CoreCompileInputs.cache
