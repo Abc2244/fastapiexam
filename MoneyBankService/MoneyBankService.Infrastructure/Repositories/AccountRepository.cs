@@ -6,15 +6,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using YourDataContextNamespace; // Reemplaza esto con el espacio de nombres donde tengas tu contexto de base de datos
+using MoneyBankService.Infrastructure.Context; // Reemplaza esto con el espacio de nombres donde tengas tu contexto de base de datos
 
 namespace MoneyBankService.Infrastructure.Repositories
 {
     public class AccountRepository : IRepository<Account>
     {
-        private readonly YourDbContext _context; // Reemplaza "YourDbContext" con el nombre de tu contexto de base de datos
+        private readonly AppDbContext _context; // Reemplaza "AppDbContextt" con el nombre de tu contexto de base de datos
 
-        public AccountRepository(YourDbContext context)
+        public AccountRepository(AppDbContext context)
         {
             _context = context;
         }

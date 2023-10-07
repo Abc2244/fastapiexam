@@ -1,4 +1,6 @@
 ﻿namespace MoneyBankService.Application.Interfaces;
+using MoneyBankService.Api.Dto;
+
 
 
 public interface IAccountService
