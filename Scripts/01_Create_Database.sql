@@ -1,1 +1,1 @@
-CREATE DATABASE `teamsdb` ;
+CREATE DATABASE `moneybankdb`;
